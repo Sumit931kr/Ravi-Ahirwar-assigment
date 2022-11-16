@@ -5,6 +5,7 @@ const John = () => {
     <div>John is my name 
         getsingledata
         now
+        wowowoo
     </div>
 
 
