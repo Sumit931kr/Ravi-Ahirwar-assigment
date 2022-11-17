@@ -11,7 +11,7 @@ const Createworkshop = (props) => {
 
     const update = async (workshopname, type, venue, url, date, _id) => {
         try {
-            const response = await fetch(`http://localhost:5000/api/updateworkshop/${_id}`, {
+            const response = await fetch(`https://ravi-ahirwar-assigment.vercel.app/updateworkshop/${_id}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',
@@ -30,7 +30,7 @@ const Createworkshop = (props) => {
 
         // APi CAll to Addinga workshop
         try {
-            const response = await fetch('http://localhost:5000/api/createworkshop', {
+            const response = await fetch('https://ravi-ahirwar-assigment.vercel.app/api/createworkshop', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

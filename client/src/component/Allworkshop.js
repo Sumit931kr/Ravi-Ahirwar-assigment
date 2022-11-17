@@ -13,7 +13,7 @@ const Allworkshop = (props) => {
 
     const getsingledata = async (id) => {
         try {
-            const response = await fetch(`http://localhost:5000/api/workshop/${id}`)
+            const response = await fetch(`https://ravi-ahirwar-assigment.vercel.app/api/workshop/${id}`)
             .then(res => res.json())
                 .catch((err) => { console.log("ERROR ", err) })
             setdata(response);
@@ -26,10 +26,11 @@ const Allworkshop = (props) => {
 
     const fetchProducts = async () => {
         try {
-            const response = await fetch('http://localhost:5000/api/workshops')
+            const response = await fetch('https://ravi-ahirwar-assigment.vercel.app/api/workshops')
                 .then(res => res.json())
                 .catch((err) => { console.log("ERROR ", err) })
-            setproducts(response);
+            setproducts(response.reverse());
+
         } catch (error) {
             console.log("Error ", error)
         }
