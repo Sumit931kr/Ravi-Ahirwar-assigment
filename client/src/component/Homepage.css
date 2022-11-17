@@ -1,0 +1,34 @@
+.homepage-container{
+    background-color: rgb(246, 246, 246);
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    padding-top:20% ;
+    height: 80vh;
+}
+
+.size{
+    background-color: rgb(230, 230, 230);
+   font-size: 1.2rem;
+    margin: 5% 0;
+    padding: 15% 0%;
+    width: 100%;
+    /* align-items: center; */
+    text-align: center;
+    cursor: pointer;
+    color: rgb(255, 60, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+.size:hover{
+background-color: rgb(221, 221, 221);
+border: 1px solid rgb(255, 60, 0);;
+}
+
+.item> a{
+    text-decoration: none;
+    color: rgb(255, 60, 0);
+    font-weight: bold;
+}

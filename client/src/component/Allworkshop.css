@@ -1,0 +1,26 @@
+.allworkshop-homepage {
+    display: grid;
+    column-gap: 4%;
+    grid-template-columns: auto auto auto;
+    padding: 5%;
+}
+
+.status {
+    color: black;
+    font-weight: bold;
+    background-color: rgb(0, 136, 255);
+    width: 22%;
+    border-radius: 10px;
+    padding: 0% 1%;
+    float: right;
+}
+.pencil{
+    float: right;
+    cursor: pointer;
+}
+.card{
+    margin-bottom: 10%;
+}
+.card-body{
+    background-color: rgb(221, 221, 221);
+}
