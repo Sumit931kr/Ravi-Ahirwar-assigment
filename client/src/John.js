@@ -4,6 +4,7 @@ const John = () => {
   return (
     <div>John is my name 
         getsingledata
+        now
     </div>
 
 
